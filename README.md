@@ -165,20 +165,17 @@ var rellax = new Rellax(this.rellaxRef)
 
 ## In the Wild
 If you're using Rellax in production, we'd love to list you here! Let us know: moe@dixonandmoe.com
-- [Microsoft Fluent](https://fluent.microsoft.com/)
-- [Gucci Gift](http://gift.gucci.com/)
 - [Bowmore Scotch](https://www.bowmore.com/)
 - [How Much Does a Website Cost](https://designagency.io/)
+- [Linux Man Pages](https://dashdash.io/)
 - [Laws of UX](https://lawsofux.com/)
 - [Finch](https://finch.io/)
 - [Product Designer in San Francisco](https://moeamaya.com/)
 - [Cool Backgrounds](https://coolbackgrounds.io/)
 - [EthWorks](http://ethworks.io/)
-- [Unlimited Designs](https://servicelist.io/)
-- [Airgora](https://www.airgora.com/competition)
 - [Lorem Ipsum Generator](https://loremipsumgenerator.com/)
-- [Terry Design](http://terrydesign.co.uk/)
 - [Deeson](https://www.deeson.co.uk/)
+- [Unlimited Designs](https://servicelist.io/)
 - [Alex Bailon Portfolio](http://www.iambailon.com/)
 
 ## Development
