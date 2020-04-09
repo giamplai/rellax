@@ -3,13 +3,11 @@
 [![NPM Package](https://img.shields.io/npm/v/rellax.svg)](https://www.npmjs.org/package/rellax)
 [![Minified Size](https://img.shields.io/bundlephobia/min/rellax.svg?label=minified)](https://bundlephobia.com/result?p=rellax)
 [![Gzipped Size](https://img.shields.io/bundlephobia/minzip/rellax.svg?label=gzipped)](https://bundlephobia.com/result?p=rellax)
-[![Twitter Follow](https://img.shields.io/twitter/follow/dixonandmoe.svg?label=%40dixonandmoe&style=social)](https://twitter.com/dixonandmoe)
 
 Rellax is a buttery smooth, super lightweight, vanilla javascript parallax library. **Update:** Rellax now works on mobile (v1.0.0).
 
 * [Demo Website](https://dixonandmoe.com/rellax/)
 
-Have any suggestions or feedback? Reach out [@dixonandmoe](https://twitter.com/dixonandmoe)
 
 ## Getting Started
 `npm install rellax --save` or if you're old school like us download and insert `rellax.min.js`
@@ -166,6 +164,7 @@ var rellax = new Rellax(this.rellaxRef)
 ## In the Wild
 If you're using Rellax in production, we'd love to list you here! Let us know: moe@dixonandmoe.com
 - [Bowmore Scotch](https://www.bowmore.com/)
+- [Generated Photos](https://generated.photos/)
 - [How Much Does a Website Cost](https://designagency.io/)
 - [Linux Man Pages](https://dashdash.io/)
 - [Laws of UX](https://lawsofux.com/)
