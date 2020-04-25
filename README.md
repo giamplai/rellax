@@ -175,7 +175,6 @@ If you're using Rellax in production, we'd love to list you here! Let us know: m
 - [Lorem Ipsum Generator](https://loremipsumgenerator.com/)
 - [Deeson](https://www.deeson.co.uk/)
 - [Unlimited Designs](https://servicelist.io/)
-- [Alex Bailon Portfolio](http://www.iambailon.com/)
 
 ## Development
 In the spirit of lightweight javascript, the build processes (thus far) is lightweight also.
