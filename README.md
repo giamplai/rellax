@@ -55,7 +55,7 @@ Use responsive speed attributes for breakpoint levels that require a different s
 </div>
 ```
 
-Pass an array of breakpoints. Each breakpoint value represents the resolution of mobile, tablet, desktop respectively.
+Pass an array of breakpoints. Each breakpoint value represents the resolution for mobile, tablet, desktop respectively. Checkout the responsiveness of the [`demo`](https://dixonandmoe.com/rellax/)
 ```html
 <script>
   // This is the default setting
