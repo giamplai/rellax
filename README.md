@@ -55,7 +55,7 @@ Use responsive speed attributes for breakpoint levels that require a different s
 </div>
 ```
 
-Pass an array of breakpoints (mobile, tablet and desktop respectively).
+Pass an array of breakpoints. Each breakpoint value represents the resolution for mobile, tablet, desktop respectively. Checkout the responsiveness of the [`demo`](https://dixonandmoe.com/rellax/)
 ```html
 <script>
   // This is the default setting
@@ -64,6 +64,7 @@ Pass an array of breakpoints (mobile, tablet and desktop respectively).
   });
 </script>
 ```
+ 
 
 ### Centering
 After some fantastic work from [@p-realinho](https://github.com/p-realinho), we just released the ability to center parallax elements in your viewport! We'll be building a nice demo website, but for now check out the tests folder for several examples of how it works.
