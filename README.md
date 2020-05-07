@@ -70,6 +70,8 @@ Pass an array of breakpoints. Each breakpoint value represents the resolution fo
 After some fantastic work from [@p-realinho](https://github.com/p-realinho), we just released the ability to center parallax elements in your viewport! We'll be building a nice demo website, but for now check out the tests folder for several examples of how it works.
 
 There's two ways to implement centering, either on specific elements or as a global option.
+1. #### Element-wise Centering
+- Add the ```data-rellax-percentage="0.5"``` to a specific html element
 ```html
 <div class="rellax" data-rellax-percentage="0.5">
   I’m that default chill speed of "-2" and "centered"
@@ -81,6 +83,8 @@ There's two ways to implement centering, either on specific elements or as a glo
   I’m extra slow and smooth, and hella centered.
 </div>
 ```
+2. #### Global Centering
+- To activate the center feature in your whole html, add the code your `<script>` tag or JS file: 
 ```html
 <script>
   // Center all the things!
