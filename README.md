@@ -109,6 +109,18 @@ If you want to sort your elements properly in the Z space, you can use the data-
 Horizontal parallax is disabled by default. You can enable it by passing `horizontal: true` in the settings block.
 This feature is intended for panoramic style websites, where users scroll horizontally instead of vertically.
 Note that this can work together at the same time with the default vertical parallax. If you do not want this, pass `vertical: false` in the settings block.
+```html
+<script>
+  // Adding horizantal parallax scrolling
+  var rellax = new Rellax('.rellax', {
+    // Activate horizantal scrolling
+    // Turned off by default
+    horizontal: true
+    //Deactivate vertical scrolling
+    vertical: false
+  });
+</script>
+```
 
 ### Custom Wrapper
 By default, the position of parallax elements is determined via the scroll position of the body. Passing in the `wrapper` property will tell Rellax to watch that element instead.
