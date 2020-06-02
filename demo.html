@@ -399,7 +399,90 @@
           </div>
         </section>
 
+        <!-- Centering -->
+        <section class="section">
+          <div style="margin-top: 150px">
+            <div class=" col container">
 
+              <div>
+                <!-- sect1 -->
+                <div class="row">
+                  <div class="col-md-offset-2 col-md-8">
+                    <h2 class="heading">Centering</h2>
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-md-offset-2 col-md-8">
+                    <p style="font-weight: lighter;">
+                      After some fantastic work from <kbd><a style="color: orange;" href="https://github.com/p-realinho">@p-realinho</a></kbd>, we 
+                      just released the ability to center parallax elements in your viewport! 
+                      We'll be building a nice demo website, but for now check out the tests 
+                      folder for several examples of how it works via our tests folder on 
+                      <a href="https://github.com/dixonandmoe/rellax">GitHub</a>.
+                    </p>
+                    <br>
+                    <p style="font-weight: lighter;">
+                      There's two ways to implement centering, either on specific elements or as a global option.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-offset-2 col-md-8">
+                    <div class="text-editor">
+                      <code>
+                        &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
+                        <span class="white">&nbsp;&nbsp;I’m that default chill speed of "-2" and "centered"</span><br>
+                        &lt;/div&gt;
+                        <br />
+                        <br>
+                        &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">7</span>" 
+                        <br>&nbsp;&nbsp;<span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
+                        <span class="white">&nbsp;&nbsp;I’m super fast!! And super centered!!</span><br>
+                        &lt;/div&gt;
+                        <br />
+                        <br>
+                        &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">-4</span>" 
+                        <br>&nbsp;&nbsp;<span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
+                        <span class="white">&nbsp;&nbsp;I’m extra slow and smooth, and hella centered.</span><br>
+                        &lt;/div&gt;
+                        <br />
+                      </code>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div>
+                <!-- sect2 -->
+                <div class="row" style="margin-top: 20px;">
+                  <div class="col-md-offset-2 col-md-8">
+                    <div class="text-editor">
+                      <code>
+                        &lt;script
+                          <br>&nbsp;&nbsp;<span class="green">//default JS Setting</span>
+                          <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
+                           <span class="white">
+                            {<br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">center:</span><span class="orange">true</span>
+                            <br>&nbsp;&nbsp;}</span>);
+                          <br />
+                        &lt;/script&gt;
+                      </code>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+        </section>
+
+        
       </div>
     </div>
 
