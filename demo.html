@@ -171,19 +171,19 @@
       <div class="col-md-3">
         <div class="fixed">
           <div class="m-3">
-            <div class="options">
-              <div class="">
-                <p class="options-text">OPTIONS</p>
-                <p class="options-title">Getting Started!</p>
-                <p class="options-title">Speed</p>
-                <p class="options-title">Centering</p>
-                <p class="options-title">Z-Index</p>
-                <p class="options-title">Horizontal Scrolling<span>➔</span></p>
-                <p class="options-title">Custom Wrapper</p>
-                <p class="options-title">Target Node</p>
+            <div class="options" id="optnCard">
+              <div>
+                <p  class="options-text disabled">OPTIONS</p>
+                <p><a href="#GettingStarted" class="option options-title active">Getting Started!</a></p>
+                <p><a class="option options-title" href="#Speed">Speed</a></p>
+                <p><a class="option options-title" href="#Centering">Centering</a></p>
+                <p><a class="option options-title" href="#ZIndex">Z-Index</a></p>
+                <p><a class="option options-title" href="#HorParlx">Horizontal Scrolling</a><span>➔</span></p>
+                <p><a class="option options-title" href="#CustomWrapper">Custom Wrapper</a></p>
+                <p><a class="option options-title" href="#Target Node">Target Node</a></p>
                 <p class="options-text">METHODS</p>
-                <p class="options-title">Refresh</p>
-                <p class="options-title">Destroy</p>
+                <p><a class="option options-title" href="#Refresh">Refresh</a></p>
+                <p><a class="option options-title" href="#Destroy">Destroy</a></p>
               </div>
             </div>
           </div>
@@ -192,7 +192,7 @@
 
       <div class="col-md-9 content">
         <!-- Getting Started -->
-        <section class="section">
+        <section class="section" id="GettingStarted">
           <div style="margin-top: 150px">
             <div class=" col container">
 
@@ -300,8 +300,8 @@
           </div>
         </section>
         
-        <!-- Responsive Speed -->
-        <section class="section">
+        <!-- Speed -->
+        <section class="section" id="Speed">
           <div style="margin-top: 150px">
             <div class=" col container">
 
@@ -400,7 +400,7 @@
         </section>
 
         <!-- Centering -->
-        <section class="section">
+        <section class="section" id="Centering">
           <div style="margin-top: 150px">
             <div class=" col container">
 
@@ -483,7 +483,7 @@
         </section>
 
         <!-- Z-index -->
-        <section class="section">
+        <section class="section" id="ZIndex">
           <div style="margin-top: 150px">
             <div class=" col container">
 
@@ -531,7 +531,7 @@
         </section>
 
         <!-- Horizantal Parallax -->
-        <section class="section">
+        <section class="section" id="HorParlx">
           <div style="margin-top: 150px">
             <div class=" col container">
 
@@ -584,7 +584,7 @@
         </section>
 
         <!-- Custom Wrapper -->
-        <section class="section">
+        <section class="section" id="CustomWrapper">
           <div style="margin-top: 150px">
             <div class=" col container">
 
@@ -632,7 +632,7 @@
         </section>
 
         <!-- Target Node -->
-        <section class="section">
+        <section class="section" id="TargetNode">
           <div style="margin-top: 150px">
             <div class="container">
 
@@ -687,7 +687,7 @@
         </section>
 
         <!-- Refresh -->
-        <section class="section">
+        <section class="section" id="Refresh">
           <div style="margin-top: 150px">
             <div class=" col container">
 
@@ -724,7 +724,7 @@
         </section>
 
         <!-- Destroy -->
-        <section class="section">
+        <section class="section" id="Destroy">
           <div style="margin-top: 150px">
             <div class=" col container">
 
@@ -850,6 +850,21 @@
       },
       breakpoints: [576, 768, 1024]
     });
+    // Get the container element
+    var optnCard = document.getElementById("optnCard");
+
+    // Get all buttons with class="btn" inside the container
+    var optns = optnCard.getElementsByClassName("option");
+
+    // Loop through the buttons and add the active class to the current/clicked button
+    for (var i = 0; i < optns.length; i++) {
+      optns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+
   </script>
 
 

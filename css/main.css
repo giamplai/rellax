@@ -330,10 +330,10 @@ h3.heading {
 }
 .options-text {
   font-size: medium;
-  /* font-weight: 600px; */
 }
 .options-title {
-  font-size: x-large;
+  font-size: 32px;
+  color: #222;
 }
 .fixed {
   margin-top: 200px;
@@ -346,19 +346,14 @@ h3.heading {
 .content {
   z-index: 5;
 }
-/* .wrap {
-  display: flex;
+/* Style the active class (and buttons on mouse-over) */
+.active {
+  color: #5000F1;
 }
-.wrap > div {
-  flex: 1;
+.option:hover {
+  color: #00F1C9;
 }
-.wrap > div:nth-child(2) {
-  height: 200vh; */
-/* } */
-/* #left {
-  overflow-y: scroll;
-  float: left;
-} */
+
 
 
 
