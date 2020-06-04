@@ -167,30 +167,29 @@
 
     </section>
 
-    <div class="row">
+    <section class="row">
       <div class="col-md-3">
-        <div class="fixed">
-          <div class="m-3">
-            <div class="options" id="optnCard">
-              <div>
-                <p  class="options-text disabled">OPTIONS</p>
-                <p><a href="#GettingStarted" class="option options-title active">Getting Started!</a></p>
-                <p><a class="option options-title" href="#Speed">Speed</a></p>
-                <p><a class="option options-title" href="#Centering">Centering</a></p>
-                <p><a class="option options-title" href="#ZIndex">Z-Index</a></p>
-                <p><a class="option options-title" href="#HorParlx">Horizontal Scrolling</a><span>➔</span></p>
-                <p><a class="option options-title" href="#CustomWrapper">Custom Wrapper</a></p>
-                <p><a class="option options-title" href="#Target Node">Target Node</a></p>
-                <p class="options-text">METHODS</p>
-                <p><a class="option options-title" href="#Refresh">Refresh</a></p>
-                <p><a class="option options-title" href="#Destroy">Destroy</a></p>
-              </div>
-            </div>
+        <div class="fixed" id="sidenav">
+          <div class="options" id="optnCard">
+
+            <p class="options-text disabled">OPTIONS</p>
+            <a href="#GettingStarted" class="option options-title active">Getting Started!</a>
+            <a class="option options-title" href="#Speed">Speed</a>
+            <a class="option options-title" href="#Centering">Centering</a>
+            <a class="option options-title" href="#ZIndex">Z-Index</a>
+            <a class="option options-title" href="#HorParlx">Horizontal Scrolling</a>
+            <!-- <span>➔</span> -->
+            <a class="option options-title" href="#CustomWrapper">Custom Wrapper</a>
+            <a class="option options-title" href="#TargetNode">Target Node</a>
+            <p class="options-text">METHODS</p>
+            <a class="option options-title" href="#Refresh">Refresh</a>
+            <a class="option options-title" href="#Destroy">Destroy</a>
+
           </div>
         </div>
       </div>
 
-      <div class="col-md-9 content">
+      <div class="col-md-9">
         <!-- Getting Started -->
         <section class="section" id="GettingStarted">
           <div style="margin-top: 150px">
@@ -203,7 +202,7 @@
                     <h2 class="heading">Getting Started!</h2>
                   </div>
                 </div>
-  
+
                 <div class="row">
                   <div class="col-md-offset-2 col-md-8">
                     <div class="text-editor">
@@ -212,7 +211,7 @@
                       </code>
                     </div>
                     <p style="text-align:center; font-weight: lighter;">
-                      or if you're old school like us, download and insert 
+                      or if you're old school like us, download and insert
                       <kbd>rellax.min.js</kbd> file in your project folder.
                     </p>
                   </div>
@@ -247,7 +246,7 @@
                     <h3 class="heading">Basic Markup (Default Speed: -2)</h3>
                   </div>
                 </div>
-                
+
                 <div class="row">
                   <div class="col-md-offset-2 col-md-8">
                     <div class="text-editor">
@@ -262,7 +261,7 @@
 
               </div>
 
-              
+
               <div>
                 <!-- sect4 -->
                 <div class="row">
@@ -299,7 +298,7 @@
             </div>
           </div>
         </section>
-        
+
         <!-- Speed -->
         <section class="section" id="Speed">
           <div style="margin-top: 150px">
@@ -312,14 +311,14 @@
                     <h2 class="heading">Speed</h2>
                   </div>
                 </div>
-  
+
                 <div class="row">
                   <div class="col-md-offset-2 col-md-8">
                     <p style="font-weight: lighter;">
-                      Use the <kbd>data-rellax-speed</kbd> attribute to set the speed of a 
-                      <kbd>.rellax</kbd> element to something other than the default value 
-                      (which is <kbd>-2</kbd>). A negative value will make it move slower 
-                      than regular scrolling, and a positive value will make it move faster. 
+                      Use the <kbd>data-rellax-speed</kbd> attribute to set the speed of a
+                      <kbd>.rellax</kbd> element to something other than the default value
+                      (which is <kbd>-2</kbd>). A negative value will make it move slower
+                      than regular scrolling, and a positive value will make it move faster.
                       We recommend keeping the speed between <kbd>-10 and +10</kbd>.
                     </p>
                   </div>
@@ -338,8 +337,8 @@
                 <div class="row">
                   <div class="col-md-offset-2 col-md-8">
                     <p style="font-weight: lighter;">
-                      Use responsive speed attributes for breakpoint levels that require a 
-                      different speed. Defaults to the <kbd>data-rellax-speed</kbd> setting 
+                      Use responsive speed attributes for breakpoint levels that require a
+                      different speed. Defaults to the <kbd>data-rellax-speed</kbd> setting
                       in unspecified breakpoints.
                     </p>
                   </div>
@@ -367,8 +366,8 @@
                 <div class="row">
                   <div class="col-md-offset-2 col-md-8">
                     <p style="font-weight: lighter;">
-                      Pass an array of breakpoints. Each breakpoint value represents the 
-                      resolution for mobile, tablet, desktop respectively. Checkout the 
+                      Pass an array of breakpoints. Each breakpoint value represents the
+                      resolution for mobile, tablet, desktop respectively. Checkout the
                       responsiveness of the demo.
                     </p>
                   </div>
@@ -411,14 +410,15 @@
                     <h2 class="heading">Centering</h2>
                   </div>
                 </div>
-  
+
                 <div class="row">
                   <div class="col-md-offset-2 col-md-8">
                     <p style="font-weight: lighter;">
-                      After some fantastic work from <kbd><a style="color: orange;" href="https://github.com/p-realinho">@p-realinho</a></kbd>, we 
-                      just released the ability to center parallax elements in your viewport! 
-                      We'll be building a nice demo website, but for now check out the tests 
-                      folder for several examples of how it works via our tests folder on 
+                      After some fantastic work from <kbd><a style="color: orange;"
+                          href="https://github.com/p-realinho">@p-realinho</a></kbd>, we
+                      just released the ability to center parallax elements in your viewport!
+                      We'll be building a nice demo website, but for now check out the tests
+                      folder for several examples of how it works via our tests folder on
                       <a href="https://github.com/dixonandmoe/rellax">GitHub</a>.
                     </p>
                     <br>
@@ -494,11 +494,11 @@
                     <h2 class="heading">Z-Index</h2>
                   </div>
                 </div>
-  
+
                 <div class="row">
                   <div class="col-md-offset-2 col-md-8">
                     <p style="font-weight: lighter;">
-                      If you want to sort your elements properly in the Z space, 
+                      If you want to sort your elements properly in the Z space,
                       you can use the <br><kbd>data-rellax-zindex</kbd> property.
                     </p>
                     <br>
@@ -542,15 +542,15 @@
                     <h2 class="heading">Horizantal Parallax</h2>
                   </div>
                 </div>
-  
+
                 <div class="row">
                   <div class="col-md-offset-2 col-md-8">
                     <p style="font-weight: lighter;">
-                      Horizontal parallax is disabled by default. You can enable it by passing 
-                      <br><kbd><span class="orange">horizontal: true</span></kbd> in the settings 
-                      block. This feature is intended for panoramic style websites, where users 
-                      scroll horizontally instead of vertically. Note that this can work together 
-                      at the same time with the default vertical parallax. If you do not want this, 
+                      Horizontal parallax is disabled by default. You can enable it by passing
+                      <br><kbd><span class="orange">horizontal: true</span></kbd> in the settings
+                      block. This feature is intended for panoramic style websites, where users
+                      scroll horizontally instead of vertically. Note that this can work together
+                      at the same time with the default vertical parallax. If you do not want this,
                       pass <kbd><span class="orange">vertical: false</span></kbd>.
                     </p>
                     <br>
@@ -595,12 +595,12 @@
                     <h2 class="heading">Custom Wrapper</h2>
                   </div>
                 </div>
-  
+
                 <div class="row">
                   <div class="col-md-offset-2 col-md-8">
                     <p style="font-weight: lighter;">
-                      By default, the position of parallax elements is determined via the scroll 
-                      position of the body. Passing in the <br><kbd><span class="orange">wrapper</span></kbd> 
+                      By default, the position of parallax elements is determined via the scroll
+                      position of the body. Passing in the <br><kbd><span class="orange">wrapper</span></kbd>
                       property in the settings block will tell Rellax to watch that element instead.
                     </p>
                     <br>
@@ -643,12 +643,12 @@
                     <h2 class="heading">Target Node</h2>
                   </div>
                 </div>
-  
+
                 <div class="row">
                   <div class="col-md-offset-2 col-md-8">
                     <p style="font-weight: lighter;">
-                      Instead of using a className you can use a node, handy when using 
-                      React and you want to use <kbd><span class="orange">refs</span></kbd> 
+                      Instead of using a className you can use a node, handy when using
+                      React and you want to use <kbd><span class="orange">refs</span></kbd>
                       instead of <kbd><span class="orange">className</span></kbd>
                     </p>
                     <br>
@@ -760,7 +760,7 @@
           </div>
         </section>
       </div>
-    </div>
+    </section>
 
     <section class="section">
 
@@ -841,6 +841,7 @@
 
   <!-- javascript -->
   <script type="text/javascript" src="rellax.js"></script>
+  <script type="text/javascript" src="option.js"></script>
   <script>
     var rellax = new Rellax('.rellax', {
       // center: true
@@ -850,21 +851,6 @@
       },
       breakpoints: [576, 768, 1024]
     });
-    // Get the container element
-    var optnCard = document.getElementById("optnCard");
-
-    // Get all buttons with class="btn" inside the container
-    var optns = optnCard.getElementsByClassName("option");
-
-    // Loop through the buttons and add the active class to the current/clicked button
-    for (var i = 0; i < optns.length; i++) {
-      optns[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-      });
-    }
-
   </script>
 
 
