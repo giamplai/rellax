@@ -189,48 +189,48 @@
             <section class="section" id="GettingStarted">
               <div style="margin-top: 5rem">
 
-                  <div>
-                    <!-- sect1 -->
-                    <h2 class="heading">Getting Started!</h2>
-                    <div class="text-editor">
-                      <code>
+                <div>
+                  <!-- sect1 -->
+                  <h2 class="heading">Getting Started!</h2>
+                  <div class="text-editor">
+                    <code>
                         <span class="orange">npm install rellax --save</span>
                       </code>
-                    </div>
-                    <p style="font-weight: lighter;">
-                      or if you're old school like us, download and insert
-                      <kbd>rellax.min.js</kbd> file in your project folder.
-                    </p>
                   </div>
+                  <p style="font-weight: lighter;">
+                    or if you're old school like us, download and insert
+                    <kbd>rellax.min.js</kbd> file in your project folder.
+                  </p>
+                </div>
 
-                  <div>
-                    <!-- sect2 -->
-                    <h3 class="heading">JavaScript (`accepts any class name`)</h3>
-                    <div class="text-editor">
-                      <code>
+                <div>
+                  <!-- sect2 -->
+                  <h3 class="heading">JavaScript (`accepts any class name`)</h3>
+                  <div class="text-editor">
+                    <code>
                         <span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax');
                       </code>
-                    </div>
                   </div>
+                </div>
 
-                  <div>
-                    <!-- sect3 -->
-                    <h3 class="heading">Basic Markup (Default Speed: -2)</h3>
-                    <div class="text-editor">
-                      <code>
+                <div>
+                  <!-- sect3 -->
+                  <h3 class="heading">Basic Markup (Default Speed: -2)</h3>
+                  <div class="text-editor">
+                    <code>
                         &lt;div <span class="purple">class</span>="<span class="green">rellax</span>"&gt;<br>
                         <span class="white">&nbsp;&nbsp;I’m slow and smooth</span><br>
                         &lt;/div&gt;
                       </code>
-                    </div>
                   </div>
+                </div>
 
 
-                  <div>
-                    <!-- sect4 -->
-                    <h3 class="heading">Optional Speed (-10 to +10)</h3>
-                    <div class="text-editor">
-                      <code>
+                <div>
+                  <!-- sect4 -->
+                  <h3 class="heading">Optional Speed (-10 to +10)</h3>
+                  <div class="text-editor">
+                    <code>
                         &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">-3</span>"&gt;<br>
                         <span class="white">&nbsp;&nbsp;I’m slow and smooth</span><br>
                         &lt;/div&gt;
@@ -246,9 +246,9 @@
                         &lt;/div&gt;
                         <br />
                       </code>
-                    </div>
-
                   </div>
+
+                </div>
 
 
               </div>
@@ -270,17 +270,17 @@
 
 
 
-                  <div>
-                    <!-- sect2 -->
-                    <h3 class="heading">Responsive Speed</h3>
-                    <p style="font-weight: lighter;">
-                      Use responsive speed attributes for breakpoint levels that require a
-                      different speed. Defaults to the <kbd>data-rellax-speed</kbd> setting
-                      in unspecified breakpoints.
-                    </p>
+                <div>
+                  <!-- sect2 -->
+                  <h3 class="heading">Responsive Speed</h3>
+                  <p style="font-weight: lighter;">
+                    Use responsive speed attributes for breakpoint levels that require a
+                    different speed. Defaults to the <kbd>data-rellax-speed</kbd> setting
+                    in unspecified breakpoints.
+                  </p>
 
-                    <div class="text-editor">
-                      <code>
+                  <div class="text-editor">
+                    <code>
                         &lt;div
                           <br>&nbsp;&nbsp;<span class="purple">class</span>="<span class="green">rellax</span>"
                           <br>&nbsp;&nbsp;<span class="purple">data-rellax-speed</span>="<span class="green">7</span>"
@@ -291,15 +291,15 @@
                         <span class="white">&nbsp;&nbsp;&nbsp;&nbsp;I parallax at all different speeds depending on your screen width.</span><br>
                         &lt;/div&gt;
                       </code>
-                    </div>
+                  </div>
 
-                    <p style="font-weight: lighter;">
-                      Pass an array of breakpoints. Each breakpoint value represents the
-                      resolution for mobile, tablet, desktop respectively. Checkout the
-                      responsiveness of the demo.
-                    </p>
-                    <div class="text-editor">
-                      <code>
+                  <p style="font-weight: lighter;">
+                    Pass an array of breakpoints. Each breakpoint value represents the
+                    resolution for mobile, tablet, desktop respectively. Checkout the
+                    responsiveness of the demo.
+                  </p>
+                  <div class="text-editor">
+                    <code>
                         &lt;script&gt;
                           <br>&nbsp;&nbsp;<span class="comment">//default JS Setting</span>
                           <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
@@ -310,9 +310,9 @@
                           <br />
                         &lt;/script&gt;
                       </code>
-                    </div>
-
                   </div>
+
+                </div>
 
 
               </div>
@@ -320,84 +320,61 @@
 
             <!-- Centering -->
             <section class="section" id="Centering">
-              <div style="margin-top: 150px">
-                <div class=" col container">
+              <div style="margin-top: 5rem">
 
-                  <div>
-                    <!-- sect1 -->
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8">
-                        <h2 class="heading">Centering</h2>
-                      </div>
+                <!-- sect1 -->
+                <h2 class="heading">Centering</h2>
+                <p style="font-weight: lighter;">
+                  After some fantastic work from <kbd><a style="color: orange;"
+                      href="https://github.com/p-realinho">@p-realinho</a></kbd>, we
+                  just released the ability to center parallax elements in your viewport!
+                  We'll be building a nice demo website, but for now check out the tests
+                  folder for several examples of how it works via our tests folder on
+                  <a href="https://github.com/dixonandmoe/rellax">GitHub</a>.
+                </p>
+                <br>
+                <p style="font-weight: lighter;">
+                  There's two ways to implement centering, either on specific elements or as a global option.
+                </p>
+
+                <div class="text-editor">
+                  <code>
+                    &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
+                    <span class="white">&nbsp;&nbsp;I’m that default chill speed of "-2" and "centered"</span><br>
+                    &lt;/div&gt;
+                    <br />
+                    <br>
+                    &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">7</span>"
+                    <br>&nbsp;&nbsp;<span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
+                    <span class="white">&nbsp;&nbsp;I’m super fast!! And super centered!!</span><br>
+                    &lt;/div&gt;
+                    <br />
+                    <br>
+                    &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">-4</span>"
+                    <br>&nbsp;&nbsp;<span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
+                    <span class="white">&nbsp;&nbsp;I’m extra slow and smooth, and hella centered.</span><br>
+                    &lt;/div&gt;
+                    <br />
+                  </code>
+                </div>
+
+                <div>
+                  <!-- sect2 -->
+                  <div style="margin-top: 5rem;">
+                    <div class="text-editor">
+                      <code>
+                        &lt;script&gt;
+                        <br>&nbsp;&nbsp;<span class="comment">//default JS Setting</span>
+                        <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
+                        <span class="white">
+                          {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">center:</span><span class="orange">true</span>
+                        <br>&nbsp;&nbsp;}</span>);
+                        <br />
+                        &lt;/script&gt;
+                      </code>
                     </div>
-
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8">
-                        <p style="font-weight: lighter;">
-                          After some fantastic work from <kbd><a style="color: orange;"
-                              href="https://github.com/p-realinho">@p-realinho</a></kbd>, we
-                          just released the ability to center parallax elements in your viewport!
-                          We'll be building a nice demo website, but for now check out the tests
-                          folder for several examples of how it works via our tests folder on
-                          <a href="https://github.com/dixonandmoe/rellax">GitHub</a>.
-                        </p>
-                        <br>
-                        <p style="font-weight: lighter;">
-                          There's two ways to implement centering, either on specific elements or as a global option.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8">
-                        <div class="text-editor">
-                          <code>
-                            &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
-                            <span class="white">&nbsp;&nbsp;I’m that default chill speed of "-2" and "centered"</span><br>
-                            &lt;/div&gt;
-                            <br />
-                            <br>
-                            &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">7</span>"
-                            <br>&nbsp;&nbsp;<span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
-                            <span class="white">&nbsp;&nbsp;I’m super fast!! And super centered!!</span><br>
-                            &lt;/div&gt;
-                            <br />
-                            <br>
-                            &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">-4</span>"
-                            <br>&nbsp;&nbsp;<span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
-                            <span class="white">&nbsp;&nbsp;I’m extra slow and smooth, and hella centered.</span><br>
-                            &lt;/div&gt;
-                            <br />
-                          </code>
-                        </div>
-                      </div>
-                    </div>
-
                   </div>
-
-                  <div>
-                    <!-- sect2 -->
-                    <div class="row" style="margin-top: 20px;">
-                      <div class="col-md-offset-2 col-md-8">
-                        <div class="text-editor">
-                          <code>
-                            &lt;script&gt;
-                              <br>&nbsp;&nbsp;<span class="comment">//default JS Setting</span>
-                              <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
-                              <span class="white">
-                                {<br>
-                                  &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">center:</span><span class="orange">true</span>
-                                <br>&nbsp;&nbsp;}</span>);
-                              <br />
-                            &lt;/script&gt;
-                          </code>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
-
                 </div>
               </div>
             </section>
