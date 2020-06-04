@@ -14,9 +14,7 @@ p {
   font-size: 22px;
 }
 a,
-a:hover,
-a:active,
-a:visited {
+a:active {
   text-decoration: none;
   color: #5000F1;
 }
@@ -306,9 +304,61 @@ span.green {
 span.white {
   color: #fff;
 }
+span.orange {
+  color: orange;
+}
+
+/* -------------------------------------------------------------------------- */
+/* =====================options-menu and documentation======================= */
+/* -------------------------------------------------------------------------- */
+h2.heading {
+  font-size: 50px;
+}
+h3.heading {
+  font-size: 27px;
+}
+.options {
+  border-radius: 15px 50px;
+  border: 0.1px solid rgb(98, 100, 95);
+  background-color: white;
+  padding: 20px;
+  width: 350px;
+  margin-left: 70px;
+  height: auto;
+}
+.options a {
+  display: block;
+}
+.options-text {
+  font-size: medium;
+}
+.options-title {
+  font-size: 32px;
+  color: #222;
+}
+.fixed {
+  margin-top: 50px;
+  z-index: 4;
+}
+.stick {
+  position: fixed;
+  top: 20px;
+}
+/* Style the active class (and buttons on mouse-over) */
+.active {
+  color: #5000F1;
+}
+.option:hover {
+  color: #00F1C9;
+}
+html {
+  scroll-behavior: smooth;
+}
 
 
-@-webkit-keyframes fuzz /* Safari and Chrome */ {
+
+
+@keyframes fuzz /* Safari and Chrome */ {
   0% {
     opacity: 0;
   }
@@ -321,7 +371,7 @@ span.white {
   }
 }
 
-@-webkit-keyframes fuzz2 /* Safari and Chrome */ {
+@keyframes fuzz2 /* Safari and Chrome */ {
   0% {
     opacity: 0;
   }
@@ -333,7 +383,7 @@ span.white {
   }
 }
 
-@-webkit-keyframes fuzz3 /* Safari and Chrome */ {
+@keyframes fuzz3 /* Safari and Chrome */ {
   0% {
     opacity: 0;
   }
@@ -349,7 +399,7 @@ span.white {
 
 
 
-@-webkit-keyframes stretch /* Safari and Chrome */ {
+@keyframes stretch /* Safari and Chrome */ {
   0% {
     -webkit-transform: scaleX(0);
     opacity: 0;
@@ -366,7 +416,7 @@ span.white {
   }
 }
 
-@-webkit-keyframes fadeInUp {
+@keyframes fadeInUp {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, 20px, 0);
