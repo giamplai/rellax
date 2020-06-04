@@ -3,13 +3,11 @@
 [![NPM Package](https://img.shields.io/npm/v/rellax.svg)](https://www.npmjs.org/package/rellax)
 [![Minified Size](https://img.shields.io/bundlephobia/min/rellax.svg?label=minified)](https://bundlephobia.com/result?p=rellax)
 [![Gzipped Size](https://img.shields.io/bundlephobia/minzip/rellax.svg?label=gzipped)](https://bundlephobia.com/result?p=rellax)
-[![Twitter Follow](https://img.shields.io/twitter/follow/dixonandmoe.svg?label=%40dixonandmoe&style=social)](https://twitter.com/dixonandmoe)
 
 Rellax is a buttery smooth, super lightweight, vanilla javascript parallax library. **Update:** Rellax now works on mobile (v1.0.0).
 
 * [Demo Website](https://dixonandmoe.com/rellax/)
 
-Have any suggestions or feedback? Reach out [@dixonandmoe](https://twitter.com/dixonandmoe)
 
 ## Getting Started
 `npm install rellax --save` or if you're old school like us download and insert `rellax.min.js`
@@ -57,7 +55,7 @@ Use responsive speed attributes for breakpoint levels that require a different s
 </div>
 ```
 
-Pass an array of breakpoints (mobile, tablet and desktop respectively).
+Pass an array of breakpoints. Each breakpoint value represents the resolution for mobile, tablet, desktop respectively. Checkout the responsiveness of the [`demo`](https://dixonandmoe.com/rellax/)
 ```html
 <script>
   // This is the default setting
@@ -66,6 +64,7 @@ Pass an array of breakpoints (mobile, tablet and desktop respectively).
   });
 </script>
 ```
+ 
 
 ### Centering
 After some fantastic work from [@p-realinho](https://github.com/p-realinho), we just released the ability to center parallax elements in your viewport! We'll be building a nice demo website, but for now check out the tests folder for several examples of how it works.
@@ -165,21 +164,18 @@ var rellax = new Rellax(this.rellaxRef)
 
 ## In the Wild
 If you're using Rellax in production, we'd love to list you here! Let us know: moe@dixonandmoe.com
-- [Microsoft Fluent](https://fluent.microsoft.com/)
-- [Gucci Gift](http://gift.gucci.com/)
 - [Bowmore Scotch](https://www.bowmore.com/)
+- [Generated Photos](https://generated.photos/)
 - [How Much Does a Website Cost](https://designagency.io/)
+- [Linux Man Pages](https://dashdash.io/)
 - [Laws of UX](https://lawsofux.com/)
 - [Finch](https://finch.io/)
 - [Product Designer in San Francisco](https://moeamaya.com/)
 - [Cool Backgrounds](https://coolbackgrounds.io/)
 - [EthWorks](http://ethworks.io/)
-- [Unlimited Designs](https://servicelist.io/)
-- [Airgora](https://www.airgora.com/competition)
 - [Lorem Ipsum Generator](https://loremipsumgenerator.com/)
-- [Terry Design](http://terrydesign.co.uk/)
 - [Deeson](https://www.deeson.co.uk/)
-- [Alex Bailon Portfolio](http://www.iambailon.com/)
+- [Unlimited Designs](https://servicelist.io/)
 
 ## Development
 In the spirit of lightweight javascript, the build processes (thus far) is lightweight also.
