@@ -29,7 +29,7 @@ var sticky = sidenav.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function getSticky() {
-  if (window.pageYOffset > 1160 && window.pageYOffset < 9000) {
+  if (window.pageYOffset > 1160 && window.pageYOffset < 9200) {
     sidenav.classList.add("stick");
   } else {
     sidenav.classList.remove("stick");
