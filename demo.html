@@ -444,48 +444,29 @@
 
             <!-- Custom Wrapper -->
             <section class="section" id="CustomWrapper">
-              <div style="margin-top: 150px">
-                <div class=" col container">
+              <div style="margin-top: 5rem">
 
-                  <div>
-                    <!-- sect1 -->
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8">
-                        <h2 class="heading">Custom Wrapper</h2>
-                      </div>
-                    </div>
+                <!-- sect1 -->
+                <h2 class="heading">Custom Wrapper</h2>
+                <p style="font-weight: lighter;">
+                  By default, the position of parallax elements is determined via the scroll
+                  position of the body. Passing in the <br><kbd><span class="orange">wrapper</span></kbd>
+                  property in the settings block will tell Rellax to watch that element instead.
+                </p>
+                <br>
 
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8">
-                        <p style="font-weight: lighter;">
-                          By default, the position of parallax elements is determined via the scroll
-                          position of the body. Passing in the <br><kbd><span class="orange">wrapper</span></kbd>
-                          property in the settings block will tell Rellax to watch that element instead.
-                        </p>
-                        <br>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8">
-                        <div class="text-editor">
-                          <code>
-                            &lt;script&gt;
-                              <br>&nbsp;&nbsp;<span class="comment">//Set wrapper to .custom-element instead of the body</span>
-                              <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
-                              <span class="white">
-                                {<br>
-                                  &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">wrapper:</span><span class="orange">'.custom-element'</span>
-                                <br>&nbsp;&nbsp;}</span>);
-                              <br />
-                            &lt;/script&gt;
-                          </code>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
+                <div class="text-editor">
+                  <code>
+                    &lt;script&gt;
+                      <br>&nbsp;&nbsp;<span class="comment">//Set wrapper to .custom-element instead of the body</span>
+                      <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
+                      <span class="white">
+                        {<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">wrapper:</span><span class="orange">'.custom-element'</span>
+                        <br>&nbsp;&nbsp;}</span>);
+                      <br />
+                    &lt;/script&gt;
+                  </code>
                 </div>
               </div>
             </section>
