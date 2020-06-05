@@ -162,153 +162,75 @@
 
     </section>
 
+    <section class="documentation">
+      <div class="container">
+        <section class="row">
+          <div class="col-md-4 sticky">
+            <div class="options" id="optnCard">
 
-    <section class="section">
+              <p class="options-text disabled">Options</p>
+              <a href="#GettingStarted" class="option options-title active">Getting Started!</a>
+              <a class="option options-title" href="#Speed">Speed</a>
+              <a class="option options-title" href="#Centering">Centering</a>
+              <a class="option options-title" href="#ZIndex">Z-Index</a>
+              <a class="option options-title" href="#HorParlx">Horizontal Scrolling</a>
+              <!-- <span>➔</span> -->
+              <a class="option options-title" href="#CustomWrapper">Custom Wrapper</a>
+              <a class="option options-title" href="#TargetNode">Target Node</a>
+              <p class="options-text options-text--margin">Methods</p>
+              <a class="option options-title" href="#Refresh">Refresh</a>
+              <a class="option options-title" href="#Destroy">Destroy</a>
 
-    </section>
-
-    <section class="row">
-      <div class="col-md-3">
-        <div class="fixed" id="sidenav">
-          <div class="options" id="optnCard">
-
-            <p class="options-text disabled">OPTIONS</p>
-            <a href="#GettingStarted" class="option options-title active">Getting Started!</a>
-            <a class="option options-title" href="#Speed">Speed</a>
-            <a class="option options-title" href="#Centering">Centering</a>
-            <a class="option options-title" href="#ZIndex">Z-Index</a>
-            <a class="option options-title" href="#HorParlx">Horizontal Scrolling</a>
-            <!-- <span>➔</span> -->
-            <a class="option options-title" href="#CustomWrapper">Custom Wrapper</a>
-            <a class="option options-title" href="#TargetNode">Target Node</a>
-            <p class="options-text">METHODS</p>
-            <a class="option options-title" href="#Refresh">Refresh</a>
-            <a class="option options-title" href="#Destroy">Destroy</a>
-
-          </div>
-        </div>
-      </div>
-
-      <section>
-        <div class="absolute above" style="pointer-events: none;">
-          <div class="container">
-            <div class="row">
-
-              <div class="col-md-offset-5 col-md-1">
-                <div class="md-twitter rellax" data-rellax-speed="1" data-rellax-xs-speed="2" data-rellax-mobile-speed="2"
-                  data-rellax-tablet-speed="2" style="transform: rotate(45deg);">
-                </div>
-              </div>
-  
-              <div class="col-md-offset-1 col-md-2">
-                <div class="bt-green rellax" data-rellax-speed="5" data-rellax-xs-speed="3" data-rellax-mobile-speed="4"
-                  data-rellax-tablet-speed="5" style="transform: rotate(45deg);">
-                </div>
-              </div>
-  
-              <div class="col-md-offset-0 col-md-1">
-                <div class="md-dixonandmoe rellax" data-rellax-speed="2" data-rellax-xs-speed="1"
-                  data-rellax-mobile-speed="1" data-rellax-tablet-speed="2" style="transform: rotate(45deg);">
-                </div>
-              </div>
-  
-              <div class="col-md-1">
-                <div class="md-facebook rellax" data-rellax-speed="3" data-rellax-xs-speed="1"
-                  data-rellax-mobile-speed="2" data-rellax-tablet-speed="3" data-rellax-percentage="0.5"
-                  style="transform: rotate(45deg);">
-                </div>
-              </div>
-  
             </div>
           </div>
-        </div>
-      </section>
 
-      <div class="col-md-9">
-        <!-- Getting Started -->
-        <section class="section" id="GettingStarted">
-          <div style="margin-top: 150px">
-            <div class=" col container">
+          <div class="col-md-8">
+            <!-- Getting Started -->
+            <section class="section" id="GettingStarted">
+              <div style="margin-top: 6rem">
 
-              <div>
-                <!-- sect1 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <h2 class="heading">Getting Started!</h2>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
-                        ><span class="orange">npm install rellax --save</span>
+                <div>
+                  <!-- sect1 -->
+                  <h2 class="heading">Getting Started!</h2>
+                  <div class="text-editor">
+                    <code>
+                        <span class="orange">npm install rellax --save</span>
                       </code>
-                    </div>
-                    <p style="text-align:center; font-weight: lighter;">
-                      or if you're old school like us, download and insert
-                      <kbd>rellax.min.js</kbd> file in your project folder.
-                    </p>
                   </div>
+                  <p style="font-weight: lighter;">
+                    or if you're old school like us, download and insert
+                    <kbd>rellax.min.js</kbd> file in your project folder.
+                  </p>
                 </div>
 
-              </div>
-
-              <div>
-                <!-- sect2 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8" style="margin-top:30px">
-                    <h3 class="heading">JavaScript (`accepts any class name`)</h3>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
+                <div>
+                  <!-- sect2 -->
+                  <h3 class="heading">JavaScript (`accepts any class name`)</h3>
+                  <div class="text-editor">
+                    <code>
                         <span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax');
                       </code>
-                    </div>
                   </div>
                 </div>
 
-              </div>
-
-              <div>
-                <!-- sect3 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8" style="margin-top:25px">
-                    <h3 class="heading">Basic Markup (Default Speed: -2)</h3>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
+                <div>
+                  <!-- sect3 -->
+                  <h3 class="heading">Basic Markup (Default Speed: -2)</h3>
+                  <div class="text-editor">
+                    <code>
                         &lt;div <span class="purple">class</span>="<span class="green">rellax</span>"&gt;<br>
                         <span class="white">&nbsp;&nbsp;I’m slow and smooth</span><br>
                         &lt;/div&gt;
                       </code>
-                    </div>
                   </div>
                 </div>
 
-              </div>
 
-
-              <div>
-                <!-- sect4 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8" style="margin-top:35px">
-                    <h3 class="heading">Optional Speed (-10 to +10)</h3>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
+                <div>
+                  <!-- sect4 -->
+                  <h3 class="heading">Optional Speed (-10 to +10)</h3>
+                  <div class="text-editor">
+                    <code>
                         &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">-3</span>"&gt;<br>
                         <span class="white">&nbsp;&nbsp;I’m slow and smooth</span><br>
                         &lt;/div&gt;
@@ -324,65 +246,41 @@
                         &lt;/div&gt;
                         <br />
                       </code>
-                    </div>
                   </div>
+
                 </div>
 
+
               </div>
+            </section>
 
-            </div>
-          </div>
-        </section>
+            <!-- Speed -->
+            <section class="section" id="Speed">
+              <div style="margin-top: 6rem">
 
-        <!-- Speed -->
-        <section class="section" id="Speed">
-          <div style="margin-top: 150px">
-            <div class=" col container">
-
-              <div>
                 <!-- sect1 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <h2 class="heading">Speed</h2>
-                  </div>
-                </div>
+                <h2 class="heading">Speed</h2>
+                <p style="font-weight: lighter;">
+                  Use the <kbd>data-rellax-speed</kbd> attribute to set the speed of a
+                  <kbd>.rellax</kbd> element to something other than the default value
+                  (which is <kbd>-2</kbd>). A negative value will make it move slower
+                  than regular scrolling, and a positive value will make it move faster.
+                  We recommend keeping the speed between <kbd>-10 and +10</kbd>.
+                </p>
 
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <p style="font-weight: lighter;">
-                      Use the <kbd>data-rellax-speed</kbd> attribute to set the speed of a
-                      <kbd>.rellax</kbd> element to something other than the default value
-                      (which is <kbd>-2</kbd>). A negative value will make it move slower
-                      than regular scrolling, and a positive value will make it move faster.
-                      We recommend keeping the speed between <kbd>-10 and +10</kbd>.
-                    </p>
-                  </div>
-                </div>
 
-              </div>
 
-              <div>
-                <!-- sect2 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8" style="margin-top:30px">
-                    <h3 class="heading">Responsive Speed</h3>
-                  </div>
-                </div>
+                <div>
+                  <!-- sect2 -->
+                  <h3 class="heading">Responsive Speed</h3 style="margin-top: 4rem">
+                  <p style="font-weight: lighter;">
+                    Use responsive speed attributes for breakpoint levels that require a
+                    different speed. Defaults to the <kbd>data-rellax-speed</kbd> setting
+                    in unspecified breakpoints.
+                  </p>
 
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <p style="font-weight: lighter;">
-                      Use responsive speed attributes for breakpoint levels that require a
-                      different speed. Defaults to the <kbd>data-rellax-speed</kbd> setting
-                      in unspecified breakpoints.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
+                  <div class="text-editor">
+                    <code>
                         &lt;div
                           <br>&nbsp;&nbsp;<span class="purple">class</span>="<span class="green">rellax</span>"
                           <br>&nbsp;&nbsp;<span class="purple">data-rellax-speed</span>="<span class="green">7</span>"
@@ -390,502 +288,268 @@
                           <br>&nbsp;&nbsp;<span class="purple">data-rellax-mobile-speed</span>="<span class="green">3</span>"
                           <br>&nbsp;&nbsp;<span class="purple">data-rellax-tablet-speed</span>="<span class="green">-8</span>"
                           <br>&nbsp;&nbsp;<span class="purple">data-rellax-desktop-speed</span>="<span class="green">1</span>"&gt;<br>
-                        <span class="white">&nbsp;&nbsp;&nbsp;&nbsp;I parallax at all different speeds depending
-                          &nbsp;&nbsp;&nbsp;&nbsp;on your screen width.</span><br>
+                        <span class="white">&nbsp;&nbsp;&nbsp;&nbsp;I parallax at all different speeds depending on your screen width.</span><br>
                         &lt;/div&gt;
                       </code>
-                    </div>
                   </div>
-                </div>
 
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <p style="font-weight: lighter;">
-                      Pass an array of breakpoints. Each breakpoint value represents the
-                      resolution for mobile, tablet, desktop respectively. Checkout the
-                      responsiveness of the demo.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
-                        &lt;script
-                          <br>&nbsp;&nbsp;<span class="green">//default JS Setting</span>
+                  <p style="font-weight: lighter;">
+                    Pass an array of breakpoints. Each breakpoint value represents the
+                    resolution for mobile, tablet, desktop respectively. Checkout the
+                    responsiveness of the demo.
+                  </p>
+                  <div class="text-editor">
+                    <code>
+                        &lt;script&gt;
+                          <br>&nbsp;&nbsp;<span class="comment">//default JS Setting</span>
                           <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
-                           <span class="white">
+                          <span class="white">
                             {<br>
                               &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">breakpoints:</span>[<span class="orange">576, 768, 1201</span>]
                             <br>&nbsp;&nbsp;}</span>);
                           <br />
                         &lt;/script&gt;
                       </code>
+                  </div>
+
+                </div>
+
+
+              </div>
+            </section>
+
+            <!-- Centering -->
+            <section class="section" id="Centering">
+              <div style="margin-top: 6rem">
+
+                <!-- sect1 -->
+                <h2 class="heading">Centering</h2>
+                <p style="font-weight: lighter;">
+                  After some fantastic work from <kbd><a style="color: orange;"
+                      href="https://github.com/p-realinho">@p-realinho</a></kbd>, we
+                  just released the ability to center parallax elements in your viewport!
+                  We'll be building a nice demo website, but for now check out the tests
+                  folder for several examples of how it works via our tests folder on
+                  <a href="https://github.com/dixonandmoe/rellax">GitHub</a>.
+                </p>
+                <br>
+                <p style="font-weight: lighter;">
+                  There's two ways to implement centering, either on specific elements or as a global option.
+                </p>
+
+                <div class="text-editor">
+                  <code>
+                    &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
+                    <span class="white">&nbsp;&nbsp;I’m that default chill speed of "-2" and "centered"</span><br>
+                    &lt;/div&gt;
+                    <br />
+                    <br>
+                    &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">7</span>"
+                    <br>&nbsp;&nbsp;<span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
+                    <span class="white">&nbsp;&nbsp;I’m super fast!! And super centered!!</span><br>
+                    &lt;/div&gt;
+                    <br />
+                    <br>
+                    &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">-4</span>"
+                    <br>&nbsp;&nbsp;<span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
+                    <span class="white">&nbsp;&nbsp;I’m extra slow and smooth, and hella centered.</span><br>
+                    &lt;/div&gt;
+                    <br />
+                  </code>
+                </div>
+
+                <div>
+                  <!-- sect2 -->
+                  <div style="margin-top: 5rem;">
+                    <div class="text-editor">
+                      <code>
+                        &lt;script&gt;
+                        <br>&nbsp;&nbsp;<span class="comment">//default JS Setting</span>
+                        <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
+                        <span class="white">
+                          {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">center:</span><span class="orange">true</span>
+                        <br>&nbsp;&nbsp;}</span>);
+                        <br />
+                        &lt;/script&gt;
+                      </code>
                     </div>
                   </div>
                 </div>
+              </div>
+            </section>
+
+            <!-- Z-index -->
+            <section class="section" id="ZIndex">
+              <div style="margin-top: 6rem">
+
+                <!-- sect1 -->
+                <h2 class="heading">Z-Index</h2>
+                <p style="font-weight: lighter;">
+                  If you want to sort your elements properly in the Z space,
+                  you can use the <br><kbd>data-rellax-zindex</kbd> property.
+                </p>
+                <br>
+
+                <div class="text-editor">
+                  <code>
+                    &lt;div <span class="purple">class</span>="<span class="green">rellax</span>"&gt;<br>
+                    <span class="white">&nbsp;&nbsp;I’m that default chill speed of "-2" and default &nbsp;&nbsp;z-index of 0</span><br>
+                    &lt;/div&gt;
+                    <br />
+                    <br>
+                    &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">7</span>"
+                    <br>&nbsp;&nbsp;<span class="purple">data-rellax-zindex</span>="<span class="green">5</span>"&gt;<br>
+                    <span class="white">&nbsp;&nbsp;I’m super fast!! And on top of the previous &nbsp;&nbsp;element, I'm z-index 5!!</span><br>
+                    &lt;/div&gt;
+                    <br />
+                  </code>
+                </div>
+              </div>
+            </section>
+
+            <!-- Horizontal Parallax -->
+            <section class="section" id="HorParlx">
+              <div style="margin-top: 6rem">
+                <!-- sect1 -->
+                <h2 class="heading">Horizontal Parallax</h2>
+                <p style="font-weight: lighter;">
+                  Horizontal parallax is disabled by default. You can enable it by passing
+                  <br><kbd><span class="orange">horizontal: true</span></kbd> in the settings
+                  block. This feature is intended for panoramic style websites, where users
+                  scroll horizontally instead of vertically. Note that this can work together
+                  at the same time with the default vertical parallax. If you do not want this,
+                  pass <kbd><span class="orange">vertical: false</span></kbd>.
+                </p>
+                <br>
+
+                <div class="text-editor">
+                  <code>
+                    &lt;script&gt;
+                      <br>&nbsp;&nbsp;<span class="comment">//Enable Horizontal Parallax Scrolling</span>
+                      <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
+                      <span class="white">
+                        {<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">horizontal:</span><span class="orange">true</span>
+                          </br ><br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//Disable vertical Parallax Scrolling</span>
+                          &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">vertical:</span><span class="orange">false</span>
+                        <br>&nbsp;&nbsp;}</span>);
+                      <br />
+                    &lt;/script&gt;
+                  </code>
+                </div>
 
               </div>
+            </section>
 
+            <!-- Custom Wrapper -->
+            <section class="section" id="CustomWrapper">
+              <div style="margin-top: 6rem">
 
-            </div>
-          </div>
-        </section>
-
-        <!-- Centering -->
-        <section class="section" id="Centering">
-          <div style="margin-top: 150px">
-            <div class=" col container">
-
-              <div>
                 <!-- sect1 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <h2 class="heading">Centering</h2>
-                  </div>
+                <h2 class="heading">Custom Wrapper</h2>
+                <p style="font-weight: lighter;">
+                  By default, the position of parallax elements is determined via the scroll
+                  position of the body. Passing in the <kbd><span class="orange">wrapper</span></kbd>
+                  property in the settings block will tell Rellax to watch that element instead.
+                </p>
+                <br>
+
+                <div class="text-editor">
+                  <code>
+                    &lt;script&gt;
+                      <br>&nbsp;&nbsp;<span class="comment">//Set wrapper to .custom-element instead of the body</span>
+                      <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
+                      <span class="white">
+                        {<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">wrapper:</span><span class="orange">'.custom-element'</span>
+                        <br>&nbsp;&nbsp;}</span>);
+                      <br />
+                    &lt;/script&gt;
+                  </code>
+                </div>
+              </div>
+            </section>
+
+            <!-- Target Node -->
+            <section class="section" id="TargetNode">
+              <div style="margin-top: 6rem">
+                <!-- sect1 -->
+
+                <h2 class="heading">Target Node</h2>
+                <p style="font-weight: lighter;">
+                  Instead of using a className you can use a node, handy when using
+                  React and you want to use <kbd><span class="orange">refs</span></kbd>
+                  instead of <kbd><span class="orange">className</span></kbd>
+                </p>
+                <br>
+
+                <div class="text-editor">
+                  <code>
+                    &lt;div <span class="purple">ref</span> = {<span class="purple">ref => </span>{ this<span class="green">.rellaxRef </span> = <span class="purple">ref</span>}}&gt;<br>
+                    <span class="white">&nbsp;&nbsp;I’m that default chill speed of "-2"</span><br>
+                    &lt;/div&gt;
+                  </code>
+                  <br />
                 </div>
 
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <p style="font-weight: lighter;">
-                      After some fantastic work from <kbd><a style="color: orange;"
-                          href="https://github.com/p-realinho">@p-realinho</a></kbd>, we
-                      just released the ability to center parallax elements in your viewport!
-                      We'll be building a nice demo website, but for now check out the tests
-                      folder for several examples of how it works via our tests folder on
-                      <a href="https://github.com/dixonandmoe/rellax">GitHub</a>.
-                    </p>
-                    <br>
-                    <p style="font-weight: lighter;">
-                      There's two ways to implement centering, either on specific elements or as a global option.
-                    </p>
+                <div style="margin-top: 5rem;">
+                  <div class="text-editor">
+                    <code>
+                      &lt;script&gt;
+                      <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>(this<span class="orange">.rellaxRef</span>);
+                      <br>
+                      &lt;/script&gt;
+                    </code>
                   </div>
                 </div>
+              </div>
+            </section>
 
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
-                        &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
-                        <span class="white">&nbsp;&nbsp;I’m that default chill speed of "-2" and "centered"</span><br>
-                        &lt;/div&gt;
-                        <br />
+            <!-- Refresh -->
+            <section class="section" id="Refresh">
+              <div style="margin-top: 6rem">
+                <!-- sect1 -->
+
+                <h2 class="heading">Refresh</h2>
+
+                <div class="text-editor">
+                  <code>
+                    &lt;script&gt;
+                      <br>&nbsp;&nbsp;<span class="comment">// Start Rellax</span>
+                      <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax');
+                      <br />
+                      <br>&nbsp;&nbsp;<span class="comment">// Destroy and create again parallax with previous settings</span>
+                        <br>&nbsp;&nbsp;rellax<span class="orange">.refresh();</span>
                         <br>
-                        &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">7</span>" 
-                        <br>&nbsp;&nbsp;<span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
-                        <span class="white">&nbsp;&nbsp;I’m super fast!! And super centered!!</span><br>
-                        &lt;/div&gt;
-                        <br />
+                    &lt;/script&gt;
+                  </code>
+                </div>
+              </div>
+            </section>
+
+            <!-- Destroy -->
+            <section class="section" id="Destroy">
+              <div style="margin-top: 6rem">
+                <!-- sect1 -->
+                <h2 class="heading">Destroy</h2>
+                <div class="text-editor">
+                  <code>
+                    &lt;script&gt;
+                      <br>&nbsp;&nbsp;<span class="comment">// Start Rellax</span>
+                      <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax');
+                      <br />
+                      <br>&nbsp;&nbsp;<span class="comment">// End Rellax and reset parallax elements to their original positions</span>
+                        <br>&nbsp;&nbsp;rellax<span class="orange">.refresh();</span>
                         <br>
-                        &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">-4</span>" 
-                        <br>&nbsp;&nbsp;<span class="purple">data-rellax-percentage</span>="<span class="green">0.5</span>"&gt;<br>
-                        <span class="white">&nbsp;&nbsp;I’m extra slow and smooth, and hella centered.</span><br>
-                        &lt;/div&gt;
-                        <br />
-                      </code>
-                    </div>
-                  </div>
+                    &lt;/script&gt;
+                  </code>
                 </div>
-
               </div>
+            </section>
 
-              <div>
-                <!-- sect2 -->
-                <div class="row" style="margin-top: 20px;">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
-                        &lt;script
-                          <br>&nbsp;&nbsp;<span class="green">//default JS Setting</span>
-                          <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
-                           <span class="white">
-                            {<br>
-                              &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">center:</span><span class="orange">true</span>
-                            <br>&nbsp;&nbsp;}</span>);
-                          <br />
-                        &lt;/script&gt;
-                      </code>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-
-            </div>
           </div>
         </section>
-
-        <!-- Z-index -->
-        <section class="section" id="ZIndex">
-          <div style="margin-top: 150px">
-            <div class=" col container">
-
-              <div>
-                <!-- sect1 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <h2 class="heading">Z-Index</h2>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <p style="font-weight: lighter;">
-                      If you want to sort your elements properly in the Z space,
-                      you can use the <br><kbd>data-rellax-zindex</kbd> property.
-                    </p>
-                    <br>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
-                        &lt;div <span class="purple">class</span>="<span class="green">rellax</span>"&gt;<br>
-                        <span class="white">&nbsp;&nbsp;I’m that default chill speed of "-2" and default &nbsp;&nbsp;z-index of 0</span><br>
-                        &lt;/div&gt;
-                        <br />
-                        <br>
-                        &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">7</span>" 
-                        <br>&nbsp;&nbsp;<span class="purple">data-rellax-zindex</span>="<span class="green">5</span>"&gt;<br>
-                        <span class="white">&nbsp;&nbsp;I’m super fast!! And on top of the previous &nbsp;&nbsp;element, I'm z-index 5!!</span><br>
-                        &lt;/div&gt;
-                        <br />
-                      </code>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-        <!-- Horizantal Parallax -->
-        <section class="section" id="HorParlx">
-          <div style="margin-top: 150px">
-            <div class=" col container">
-
-              <div>
-                <!-- sect1 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <h2 class="heading">Horizantal Parallax</h2>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <p style="font-weight: lighter;">
-                      Horizontal parallax is disabled by default. You can enable it by passing
-                      <br><kbd><span class="orange">horizontal: true</span></kbd> in the settings
-                      block. This feature is intended for panoramic style websites, where users
-                      scroll horizontally instead of vertically. Note that this can work together
-                      at the same time with the default vertical parallax. If you do not want this,
-                      pass <kbd><span class="orange">vertical: false</span></kbd>.
-                    </p>
-                    <br>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
-                        &lt;script
-                          <br>&nbsp;&nbsp;<span class="green">//Enable Horizantal Parallax Scrolling</span>
-                          <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
-                           <span class="white">
-                            {<br>
-                              &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">horizantal:</span><span class="orange">true</span>
-                              </br ><br>&nbsp;&nbsp;<span class="green">//Disable vertical Parallax Scrolling</span>
-                              &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">vertical:</span><span class="orange">false</span>
-                            <br>&nbsp;&nbsp;}</span>);
-                          <br />
-                        &lt;/script&gt;
-                      </code>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-        <!-- Custom Wrapper -->
-        <section class="section" id="CustomWrapper">
-          <div style="margin-top: 150px">
-            <div class=" col container">
-
-              <div>
-                <!-- sect1 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <h2 class="heading">Custom Wrapper</h2>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <p style="font-weight: lighter;">
-                      By default, the position of parallax elements is determined via the scroll
-                      position of the body. Passing in the <br><kbd><span class="orange">wrapper</span></kbd>
-                      property in the settings block will tell Rellax to watch that element instead.
-                    </p>
-                    <br>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
-                        &lt;script
-                          <br>&nbsp;&nbsp;<span class="green">//Set wrapper to .custom-element instead of the body</span>
-                          <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax',
-                           <span class="white">
-                            {<br>
-                              &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">wrapper:</span><span class="orange">'.custom-element'</span>
-                            <br>&nbsp;&nbsp;}</span>);
-                          <br />
-                        &lt;/script&gt;
-                      </code>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div class="absolute above" style="pointer-events: none;">
-            <div class="container">
-              <div class="row">
-  
-                <div class="col-md-offset-5 col-md-1">
-                  <div class="md-twitter rellax" data-rellax-speed="1" data-rellax-xs-speed="2" data-rellax-mobile-speed="2"
-                    data-rellax-tablet-speed="2" style="transform: rotate(45deg);">
-                  </div>
-                </div>
-    
-                <div class="col-md-offset-1 col-md-2">
-                  <div class="bt-green rellax" data-rellax-speed="5" data-rellax-xs-speed="3" data-rellax-mobile-speed="4"
-                    data-rellax-tablet-speed="5" style="transform: rotate(45deg);">
-                  </div>
-                </div>
-    
-                <div class="col-md-offset-0 col-md-1">
-                  <div class="md-dixonandmoe rellax" data-rellax-speed="2" data-rellax-xs-speed="1"
-                    data-rellax-mobile-speed="1" data-rellax-tablet-speed="2" style="transform: rotate(45deg);">
-                  </div>
-                </div>
-    
-                <div class="col-md-1">
-                  <div class="md-facebook rellax" data-rellax-speed="3" data-rellax-xs-speed="1"
-                    data-rellax-mobile-speed="2" data-rellax-tablet-speed="3" data-rellax-percentage="0.5"
-                    style="transform: rotate(45deg);">
-                  </div>
-                </div>
-    
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Target Node -->
-        <section class="section" id="TargetNode">
-          <div style="margin-top: 150px">
-            <div class="container">
-
-              <div>
-                <!-- sect1 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <h2 class="heading">Target Node</h2>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <p style="font-weight: lighter;">
-                      Instead of using a className you can use a node, handy when using
-                      React and you want to use <kbd><span class="orange">refs</span></kbd>
-                      instead of <kbd><span class="orange">className</span></kbd>
-                    </p>
-                    <br>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
-                        &lt;div <span class="purple">ref</span> = {<span class="purple">ref => </span>{ this<span class="green">.rellaxRef </span> = <span class="purple">ref</span>}}&gt;<br>
-                        <span class="white">&nbsp;&nbsp;I’m that default chill speed of "-2"</span><br>
-                        &lt;/div&gt;
-                      </code>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8" style="margin-top: 25px;">
-                    <div class="text-editor">
-                      <code>
-                        &lt;script
-                          <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>(this<span class="orange">.rellaxRef</span>);
-                            <br>
-                        &lt;/script&gt;
-                      </code>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-        <!-- Refresh -->
-        <section class="section" id="Refresh">
-          <div style="margin-top: 150px">
-            <div class=" col container">
-
-              <div>
-                <!-- sect1 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <h2 class="heading">Refresh</h2>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
-                        &lt;script
-                          <br>&nbsp;&nbsp;<span class="green">// Start Rellax</span>
-                          <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax');
-                          <br />
-                          <br>&nbsp;&nbsp;<span class="green">// Destroy and create again parallax with previous 
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;settings</span>
-                            <br>&nbsp;&nbsp;rellax<span class="orange">.refresh();</span>
-                            <br>
-                        &lt;/script&gt;
-                      </code>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-        <!-- Destroy -->
-        <section class="section" id="Destroy">
-          <div style="margin-top: 150px">
-            <div class=" col container">
-
-              <div>
-                <!-- sect1 -->
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <h2 class="heading">Destroy</h2>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-offset-2 col-md-8">
-                    <div class="text-editor">
-                      <code>
-                        &lt;script
-                          <br>&nbsp;&nbsp;<span class="green">// Start Rellax</span>
-                          <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax');
-                          <br />
-                          <br>&nbsp;&nbsp;<span class="green">// End Rellax and reset parallax elements to their 
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;original positions</span>
-                            <br>&nbsp;&nbsp;rellax<span class="orange">.refresh();</span>
-                            <br>
-                        &lt;/script&gt;
-                      </code>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-        </section>
-      </div>
-    </section>
-
-    <section class="section">
-
-      <div class="absolute above" style="pointer-events: none;">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-md-offset-1 col-md-2">
-              <div class="bt-green rellax" data-rellax-speed="5" data-rellax-xs-speed="3" data-rellax-mobile-speed="4"
-                data-rellax-tablet-speed="5" style="transform: rotate(45deg);">
-              </div>
-            </div>
-
-            <div class="col-md-offset-0 col-md-1">
-              <div class="md-dixonandmoe rellax" data-rellax-speed="2" data-rellax-xs-speed="1"
-                data-rellax-mobile-speed="1" data-rellax-tablet-speed="2" style="transform: rotate(45deg);">
-              </div>
-            </div>
-
-            <div class="col-md-offset-5 col-md-1">
-              <div class="md-twitter rellax" data-rellax-speed="1" data-rellax-xs-speed="2" data-rellax-mobile-speed="2"
-                data-rellax-tablet-speed="2" style="transform: rotate(45deg);">
-              </div>
-            </div>
-
-            <div class="col-md-1">
-              <div class="md-facebook rellax" data-rellax-speed="3" data-rellax-xs-speed="1"
-                data-rellax-mobile-speed="2" data-rellax-tablet-speed="3" data-rellax-percentage="0.5"
-                style="transform: rotate(45deg);">
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="copy" style="margin-top: 200px;margin-bottom: 500px">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-offset-1 col-md-6">
-              <h4>SERIOUSLY, WHY?!</h4>
-              <p>Come on, how boring is the internet without excessive javascript? We made this library since too many
-                github repos are abandoned (RIP skrollr) or feature creepy. You got some beef or caught us slippin on
-                unit tests, send rants and 10mb gifs to <a href="mailto:moe@dixonandmoe.">moe@dixonandmoe.com</a></p>
-            </div>
-          </div>
-
-          <div class="row" style="margin-top: 140px">
-            <div class="col-md-offset-5 col-md-6">
-              <h4>BUT ACTUALLY</h4>
-              <p>We've benefitted so much from open source projects that we're actively trying to give back. As
-                designers, we're starting by releasing our own quirky js code.</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
