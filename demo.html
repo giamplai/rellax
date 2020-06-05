@@ -187,7 +187,7 @@
           <div class="col-md-8">
             <!-- Getting Started -->
             <section class="section" id="GettingStarted">
-              <div style="margin-top: 5rem">
+              <div style="margin-top: 6rem">
 
                 <div>
                   <!-- sect1 -->
@@ -256,7 +256,7 @@
 
             <!-- Speed -->
             <section class="section" id="Speed">
-              <div style="margin-top: 5rem">
+              <div style="margin-top: 6rem">
 
                 <!-- sect1 -->
                 <h2 class="heading">Speed</h2>
@@ -320,7 +320,7 @@
 
             <!-- Centering -->
             <section class="section" id="Centering">
-              <div style="margin-top: 5rem">
+              <div style="margin-top: 6rem">
 
                 <!-- sect1 -->
                 <h2 class="heading">Centering</h2>
@@ -381,7 +381,7 @@
 
             <!-- Z-index -->
             <section class="section" id="ZIndex">
-              <div style="margin-top: 5rem">
+              <div style="margin-top: 6rem">
 
                 <!-- sect1 -->
                 <h2 class="heading">Z-Index</h2>
@@ -410,7 +410,7 @@
 
             <!-- Horizontal Parallax -->
             <section class="section" id="HorParlx">
-              <div style="margin-top: 5rem">
+              <div style="margin-top: 6rem">
                 <!-- sect1 -->
                 <h2 class="heading">Horizontal Parallax</h2>
                 <p style="font-weight: lighter;">
@@ -444,7 +444,7 @@
 
             <!-- Custom Wrapper -->
             <section class="section" id="CustomWrapper">
-              <div style="margin-top: 5rem">
+              <div style="margin-top: 6rem">
 
                 <!-- sect1 -->
                 <h2 class="heading">Custom Wrapper</h2>
@@ -473,91 +473,57 @@
 
             <!-- Target Node -->
             <section class="section" id="TargetNode">
-              <div style="margin-top: 150px">
-                <div class="container">
+              <div style="margin-top: 6rem">
+                <!-- sect1 -->
 
-                  <div>
-                    <!-- sect1 -->
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8">
-                        <h2 class="heading">Target Node</h2>
-                      </div>
-                    </div>
+                <h2 class="heading">Target Node</h2>
+                <p style="font-weight: lighter;">
+                  Instead of using a className you can use a node, handy when using
+                  React and you want to use <kbd><span class="orange">refs</span></kbd>
+                  instead of <kbd><span class="orange">className</span></kbd>
+                </p>
+                <br>
 
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8">
-                        <p style="font-weight: lighter;">
-                          Instead of using a className you can use a node, handy when using
-                          React and you want to use <kbd><span class="orange">refs</span></kbd>
-                          instead of <kbd><span class="orange">className</span></kbd>
-                        </p>
-                        <br>
-                      </div>
-                    </div>
+                <div class="text-editor">
+                  <code>
+                    &lt;div <span class="purple">ref</span> = {<span class="purple">ref => </span>{ this<span class="green">.rellaxRef </span> = <span class="purple">ref</span>}}&gt;<br>
+                    <span class="white">&nbsp;&nbsp;I’m that default chill speed of "-2"</span><br>
+                    &lt;/div&gt;
+                  </code>
+                  <br />
+                </div>
 
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8">
-                        <div class="text-editor">
-                          <code>
-                            &lt;div <span class="purple">ref</span> = {<span class="purple">ref => </span>{ this<span class="green">.rellaxRef </span> = <span class="purple">ref</span>}}&gt;<br>
-                            <span class="white">&nbsp;&nbsp;I’m that default chill speed of "-2"</span><br>
-                            &lt;/div&gt;
-                          </code>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8" style="margin-top: 25px;">
-                        <div class="text-editor">
-                          <code>
-                            &lt;script&gt;
-                              <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>(this<span class="orange">.rellaxRef</span>);
-                                <br>
-                            &lt;/script&gt;
-                          </code>
-                        </div>
-                      </div>
-                    </div>
-
+                <div style="margin-top: 5rem;">
+                  <div class="text-editor">
+                    <code>
+                      &lt;script&gt;
+                      <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>(this<span class="orange">.rellaxRef</span>);
+                      <br>
+                      &lt;/script&gt;
+                    </code>
                   </div>
-
                 </div>
               </div>
             </section>
 
             <!-- Refresh -->
             <section class="section" id="Refresh">
-              <div style="margin-top: 150px">
-                <div class=" col container">
+              <div style="margin-top: 6rem">
+                <!-- sect1 -->
 
-                  <div>
-                    <!-- sect1 -->
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8">
-                        <h2 class="heading">Refresh</h2>
-                      </div>
-                    </div>
+                <h2 class="heading">Refresh</h2>
 
-                    <div class="row">
-                      <div class="col-md-offset-2 col-md-8">
-                        <div class="text-editor">
-                          <code>
-                            &lt;script&gt;
-                              <br>&nbsp;&nbsp;<span class="comment">// Start Rellax</span>
-                              <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax');
-                              <br />
-                              <br>&nbsp;&nbsp;<span class="comment">// Destroy and create again parallax with previous settings</span>
-                                <br>&nbsp;&nbsp;rellax<span class="orange">.refresh();</span>
-                                <br>
-                            &lt;/script&gt;
-                          </code>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
+                <div class="text-editor">
+                  <code>
+                    &lt;script&gt;
+                      <br>&nbsp;&nbsp;<span class="comment">// Start Rellax</span>
+                      <br>&nbsp;&nbsp;<span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax');
+                      <br />
+                      <br>&nbsp;&nbsp;<span class="comment">// Destroy and create again parallax with previous settings</span>
+                        <br>&nbsp;&nbsp;rellax<span class="orange">.refresh();</span>
+                        <br>
+                    &lt;/script&gt;
+                  </code>
                 </div>
               </div>
             </section>
