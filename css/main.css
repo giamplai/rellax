@@ -1,10 +1,11 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-rendering: optimizeLegibility;
   color: #222;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 h4 {
   font-size: 22px;
@@ -14,11 +15,9 @@ p {
   font-size: 22px;
 }
 a,
-a:hover,
-a:active,
-a:visited {
+a:active {
   text-decoration: none;
-  color: #5000F1;
+  color: #5000f1;
 }
 
 header h2 {
@@ -82,11 +81,9 @@ header h3 {
   font-size: 21px;
 }
 
-
 /*----------------------------------
   Background Grid
 ------------------------------------*/
-
 
 .grid {
   position: fixed;
@@ -97,29 +94,23 @@ header h3 {
   border-left: 1px solid #ccc;
 }
 
-
-
-
 .fixed-top {
   position: absolute;
   width: 600px;
   height: 600px;
-  background: #00F1C9;
+  background: #00f1c9;
   border-radius: 12px;
   z-index: -1;
   margin-top: -220px;
   margin-left: 100px;
 }
 
-
 /*----------------------------------
   Main
 ------------------------------------*/
 
-main,
-.main {
-  overflow: hidden;
-}
+/* .main {
+  /* overflow: hidden; */
 
 .section {
   position: relative;
@@ -127,7 +118,6 @@ main,
 section.san-francisco {
   margin-top: 100px;
 }
-
 
 .absolute {
   position: absolute;
@@ -142,13 +132,13 @@ section.san-francisco {
   font-size: 140px;
   font-weight: 900;
   letter-spacing: -0.04em;
-  color: #F0F0F0;
+  color: #f0f0f0;
   z-index: -1;
 }
 .lg-green {
   width: 160px;
   height: 160px;
-  background: #00F1C9;
+  background: #00f1c9;
   border-radius: 12px;
   margin-left: -80px;
   margin-top: 200px;
@@ -156,7 +146,7 @@ section.san-francisco {
 .sm-green {
   width: 60px;
   height: 60px;
-  background: #00F1C9;
+  background: #00f1c9;
   border-radius: 12px;
   margin-left: -30px;
   margin-top: 400px;
@@ -164,7 +154,7 @@ section.san-francisco {
 .sm-purple {
   width: 60px;
   height: 60px;
-  background: #5000F1;
+  background: #5000f1;
   border-radius: 12px;
   margin-left: -30px;
   margin-top: 400px;
@@ -172,7 +162,7 @@ section.san-francisco {
 .xs-green {
   width: 60px;
   height: 60px;
-  background: #00F1C9;
+  background: #00f1c9;
   border-radius: 12px;
   margin-left: -30px;
   margin-top: 400px;
@@ -180,7 +170,7 @@ section.san-francisco {
 .md-green {
   width: 120px;
   height: 120px;
-  background: #00F1C9;
+  background: #00f1c9;
   border-radius: 12px;
   margin-left: -60px;
   margin-top: 10px;
@@ -188,41 +178,30 @@ section.san-francisco {
 .lg-purple {
   width: 80px;
   height: 80px;
-  background: #5000F1;
+  background: #5000f1;
   border-radius: 12px;
   margin-left: 57px;
   margin-top: 60px;
 }
 
-
-
-
-
 .date {
   margin-top: 400px;
   font-size: 48px;
   font-weight: 600;
-  color: #5000F1;
+  color: #5000f1;
 }
 .temp {
   margin-top: 200px;
   font-size: 280px;
   font-weight: 900;
   letter-spacing: -0.07em;
-  color: #5000F1;
+  color: #5000f1;
 }
-
-
-
-
-
-
 
 .text-editor {
   background: #222;
   padding: 60px 50px;
   border-radius: 12px;
-  margin-left: 15px;
 }
 code {
   text-align: left;
@@ -230,15 +209,13 @@ code {
   font-size: 22px;
   background: none;
   border-radius: 0;
-  color: #00F1C9;
+  color: #00f1c9;
 }
-
-
 
 .md-facebook {
   width: 60px;
   height: 60px;
-  background: #5000F1;
+  background: #5000f1;
   border-radius: 12px;
   margin-left: 68px;
   margin-top: 600px;
@@ -246,7 +223,7 @@ code {
 .md-twitter {
   width: 120px;
   height: 120px;
-  background: #00F1C9;
+  background: #00f1c9;
   border-radius: 12px;
   margin-left: -60px;
   margin-top: 60px;
@@ -254,7 +231,7 @@ code {
 .md-dixonandmoe {
   width: 120px;
   height: 120px;
-  background: #5000F1;
+  background: #5000f1;
   border-radius: 12px;
   margin-left: -60px;
   margin-top: 760px;
@@ -262,7 +239,7 @@ code {
 .bt-green {
   width: 60px;
   height: 60px;
-  background: #00F1C9;
+  background: #00f1c9;
   border-radius: 12px;
   margin-left: -30px;
   margin-top: 700px;
@@ -270,7 +247,7 @@ code {
 .bt-purple {
   width: 80px;
   height: 80px;
-  background: #5000F1;
+  background: #5000f1;
   border-radius: 12px;
   margin-left: 57px;
   margin-top: 600px;
@@ -278,7 +255,7 @@ code {
 
 .share {
   position: relative;
-  top: -240px;
+  top: 200px;
 }
 .share a {
   font-size: 34px;
@@ -297,18 +274,79 @@ a.dam:visited {
   color: #222;
 }
 
+span.comment {
+  color: rgba(255, 255, 255, 0.4);
+}
 span.purple {
-  color: #5000F1;
+  color: #5000f1;
 }
 span.green {
-  color: #A0F100;
+  color: #a0f100;
 }
 span.white {
   color: #fff;
 }
+span.orange {
+  color: orange;
+}
 
+/* -------------------------------------------------------------------------- */
+/* =====================options-menu and documentation======================= */
+/* -------------------------------------------------------------------------- */
+h2.heading {
+  font-size: 50px;
+}
+h3.heading {
+  font-size: 27px;
+  font-weight: bolder;
+}
 
-@-webkit-keyframes fuzz /* Safari and Chrome */ {
+.documentation {
+  margin-top: 8rem;
+}
+.options {
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background-color: white;
+  width: 90%;
+  padding: 2.5rem;
+  margin-top: 4rem;
+  height: auto;
+}
+.options a {
+  display: block;
+}
+.options-text {
+  font-size: medium;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0;
+}
+.options-text--margin {
+  margin-top: 3rem;
+}
+.options-title {
+  font-size: 24px;
+  padding: 1rem 0;
+  color: #222;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+/* Style the active class (and buttons on mouse-over) */
+.active {
+  color: #5000f1;
+}
+.option:hover {
+  color: #00f1c9;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fuzz /* Safari and Chrome */ {
   0% {
     opacity: 0;
   }
@@ -321,7 +359,7 @@ span.white {
   }
 }
 
-@-webkit-keyframes fuzz2 /* Safari and Chrome */ {
+@keyframes fuzz2 /* Safari and Chrome */ {
   0% {
     opacity: 0;
   }
@@ -333,7 +371,7 @@ span.white {
   }
 }
 
-@-webkit-keyframes fuzz3 /* Safari and Chrome */ {
+@keyframes fuzz3 /* Safari and Chrome */ {
   0% {
     opacity: 0;
   }
@@ -345,11 +383,7 @@ span.white {
   }
 }
 
-
-
-
-
-@-webkit-keyframes stretch /* Safari and Chrome */ {
+@keyframes stretch /* Safari and Chrome */ {
   0% {
     -webkit-transform: scaleX(0);
     opacity: 0;
@@ -366,7 +400,7 @@ span.white {
   }
 }
 
-@-webkit-keyframes fadeInUp {
+@keyframes fadeInUp {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, 20px, 0);
@@ -380,41 +414,32 @@ span.white {
   }
 }
 
-
-
-
-
-
-
 /*----------------------------------
   Medium devices: iPad vertical
 ------------------------------------*/
 
 @media (max-width: 991px) {
-
-
 }
-
-
 
 /*----------------------------------
   Small devices: iPhone 6+ and below
 ------------------------------------*/
 
 @media (max-width: 767px) {
-
-
+  .sticky {
+    display: none;
+  }
 }
-
 
 /*----------------------------------
   iPhone 6 & 6+ specific text bump
 ------------------------------------*/
 
 @media (max-width: 991px) and (max-height: 736px) and (min-height: 481px) {
-
-
+  .sticky {
+    display: none;
+  }
+  p {
+    text-align: justify;
+  }
 }
-
-
-
