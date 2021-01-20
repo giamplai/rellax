@@ -270,7 +270,7 @@
       var verticalSpeed = dataVerticalSpeed ? dataVerticalSpeed : self.options.verticalSpeed;
       var horizontalSpeed = dataHorizontalSpeed ? dataHorizontalSpeed : self.options.horizontalSpeed;
 
-      // Optional individual block movement axis direction as data attr, otherwise gobal movement direction
+      // Optional individual block movement axis direction as data attr, otherwise global movement direction
       var verticalScrollAxis = dataVericalScrollAxis ? dataVericalScrollAxis : self.options.verticalScrollAxis;
       var horizontalScrollAxis = dataHorizontalScrollAxis ? dataHorizontalScrollAxis : self.options.horizontalScrollAxis;
 
